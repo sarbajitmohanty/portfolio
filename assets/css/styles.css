@@ -78,6 +78,11 @@ body{
   cursor: pointer;
 }
 
+.btn-toggle:hover{
+  transform: scale(1.05);
+  transition: transform 330ms ease-in-out;
+}
+
 h1,h2,p{
   margin: 0;
 }
@@ -106,6 +111,7 @@ img{
 
 .scroll-top:hover {
   transform: scale(1.2);
+  transition: transform 330ms ease-in-out;
 }
 
 /*===== CLASS CSS ===== */
