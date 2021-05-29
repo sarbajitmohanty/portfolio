@@ -359,14 +359,21 @@ img {
 .skills__text {
   margin-bottom: var(--mb-4);
 }
+.skills-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .skills__data {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
   position: relative;
   font-weight: var(--font-semi);
   padding: 0.5rem 1rem;
   margin-bottom: var(--mb-4);
+  margin-right: 8px;
   border-radius: 0.5rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
 }
