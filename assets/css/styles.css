@@ -89,7 +89,10 @@ body {
   transform: scale(1.05);
   transition: transform 330ms ease-in-out;
 }
-
+.mail-chat {
+  font-size: 24px;
+  text-align: justify;
+}
 h1,
 h2,
 p {
