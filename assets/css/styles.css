@@ -117,8 +117,10 @@ img {
   right: 5%;
   bottom: 5%;
   z-index: 10;
-  width: 5%;
-  height: 5%;
+  /* width: 5%;
+  height: 5%; */
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .scroll-top:hover {
@@ -382,6 +384,25 @@ img {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
+.skills__icon_mongo {
+  background-image: url("/assets/svg/mongodb_icon.svg");
+  width: 2rem;
+  height: 2rem;
+  margin-right: var(--mb-2);
+}
+.skills__icon_graphql {
+  background-image: url("/assets/svg/graphql_icon.svg");
+  width: 2rem;
+  height: 2rem;
+  margin-right: var(--mb-2);
+}
+.skills__icon_materialui {
+  background-image: url("/assets/svg/material-ui.svg");
+  width: 1.4rem;
+  height: 1.4rem;
+  background-position: center;
+  margin-right: var(--mb-2);
+}
 .skills__names {
   display: flex;
   align-items: center;
@@ -449,6 +470,7 @@ img {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
@@ -462,6 +484,11 @@ img {
 }
 .portfolio__link-name {
   color: #2a3b47;
+}
+
+.p__link {
+  font-size: 1.5rem;
+  margin-top: 10px;
 }
 
 .portfolio__link-name:hover {
@@ -620,3 +647,16 @@ img {
     right: 10%;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .home__img {
+    width: 220px;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .scroll-top {
+    width: 8%;
+    height: 8%;
+  }
+} */
