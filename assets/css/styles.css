@@ -124,7 +124,7 @@ img {
 }
 
 .scroll-top:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: transform 330ms ease-in-out;
 }
 
@@ -334,6 +334,10 @@ img {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
 
+.button__dark:hover {
+  box-shadow: 0px 0px 25px -3px rgba(230, 230, 230, 0.15);
+}
+
 /* ===== ABOUT =====*/
 .about__container {
   row-gap: 2rem;
@@ -377,7 +381,10 @@ img {
   margin-bottom: var(--mb-4);
   margin-right: 8px;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 0 4px 25px rgba(64, 67, 68, 0.15);
+}
+.dark__shadow {
+  box-shadow: 0px 0px 25px -5px rgba(230, 230, 230, 0.15);
 }
 .skills__icon {
   font-size: 2rem;
@@ -401,6 +408,30 @@ img {
   width: 1.4rem;
   height: 1.4rem;
   background-position: center;
+  margin-right: var(--mb-2);
+}
+.skills__icon_python {
+  background-image: url("/assets/svg/python_logo_icon.svg");
+  width: 2rem;
+  height: 2rem;
+  margin-right: var(--mb-2);
+}
+.skills__icon_aws {
+  background-image: url("/assets/svg/aws_icon.svg");
+  width: 2rem;
+  height: 2rem;
+  margin-right: var(--mb-2);
+}
+.skills__icon_flutter {
+  background-image: url("/assets/svg/flutter_icon.svg");
+  width: 2rem;
+  height: 2rem;
+  margin-right: var(--mb-2);
+}
+.skills__icon_sql {
+  background-image: url("/assets/svg/database_icon.svg");
+  width: 2rem;
+  height: 2rem;
   margin-right: var(--mb-2);
 }
 .skills__names {

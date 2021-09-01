@@ -89,6 +89,7 @@ const btn = document.querySelector(".btn-toggle");
 btn.addEventListener("click", function () {
   // Then toggle (add/remove) the .dark-theme class to the body
   document.body.classList.toggle("dark-theme");
+  document.getElementById("butn").classList.toggle("button__dark");
   document.getElementById("logo").classList.toggle("nav__logo-dark-theme");
   document.getElementById("header").classList.toggle("l-header-dark-theme");
   document.getElementById("bt1").classList.toggle("dark-text");
@@ -100,4 +101,24 @@ btn.addEventListener("click", function () {
   document.getElementById("social-li").classList.toggle("btn-menu-tog");
   document.getElementById("social-de").classList.toggle("btn-menu-tog");
   document.getElementById("social-gi").classList.toggle("btn-menu-tog");
+
+  document.getElementById("sd1").classList.toggle("dark__shadow");
+  document.getElementById("sd2").classList.toggle("dark__shadow");
+  document.getElementById("sd3").classList.toggle("dark__shadow");
+  document.getElementById("sd4").classList.toggle("dark__shadow");
+  document.getElementById("sd5").classList.toggle("dark__shadow");
+  document.getElementById("sd6").classList.toggle("dark__shadow");
+  document.getElementById("sd7").classList.toggle("dark__shadow");
+  document.getElementById("sd8").classList.toggle("dark__shadow");
+  document.getElementById("sd9").classList.toggle("dark__shadow");
+  document.getElementById("sd10").classList.toggle("dark__shadow");
+  document.getElementById("sd11").classList.toggle("dark__shadow");
+  document.getElementById("sd12").classList.toggle("dark__shadow");
+  document.getElementById("sd13").classList.toggle("dark__shadow");
+  document.getElementById("sd14").classList.toggle("dark__shadow");
+  document.getElementById("sd15").classList.toggle("dark__shadow");
+  document.getElementById("sd16").classList.toggle("dark__shadow");
+  document.getElementById("sd17").classList.toggle("dark__shadow");
+  document.getElementById("sd18").classList.toggle("dark__shadow");
+  document.getElementById("sd19").classList.toggle("dark__shadow");
 });
